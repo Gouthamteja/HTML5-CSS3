@@ -2,6 +2,7 @@ body{
 	background: black;
 }
 div{
+	margin: auto;	
 	color:white;
 }
 header{
