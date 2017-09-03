@@ -28,7 +28,7 @@ h1{
   font-weight: bold;  
   font-family: 'Monoton', cursive;
   font-size: 60px;
-  text-shadow: -4px 6px 6px #F2F3F4  ;
+  text-shadow: -3px 4px 4px #F2F3F4  ;
   padding-left: 5px;
   letter-spacing: 9px;
   color:#F2F3F4
@@ -216,6 +216,20 @@ footer{
 }
 
 
+
+.options li {
+	display:inline;
+	
+}
+
+.options li a{
+	padding-left: 50px;
+	color: white;
+}
+.options li a:hover{
+	color:#F5B041;
+}
+
 .media{
 	text-align: center;
 }
@@ -243,19 +257,27 @@ footer{
   color: white;
 }
 
-
+.media p{
+	color: #F5B041;
+}
 .media a{
 	
 	padding: 5px;
 	text-decoration: none;
 }
-
-.foot{
-  font-weight: bold;
+.media a:hover{
+	color:#F5B041 
+}
+.foot {
+  color: #F5B041;
+  bottom: 0;
   /*padding-left:60%;*/
 }
 span.foot_2{
-  font-weight: bold;
   float:right;
+  color: #F5B041;
 }
-
+ .foot_2 a{
+color: #F5B041;
+}
+ }
