@@ -1,13 +1,261 @@
-body{
-	background: black;
+*{
+	margin:0px;
+	padding: 0px;
+	
+	
 }
-div{
-	margin-top:100; 	
-	color:white;
+body, html {
+    height: 100%;
+    background-color: #F5B041  ;
+  
 }
+
+
+
+/*styling for the header
+*/
+
 header{
+	display: block;
+	background-color: #17202A;
+	width: 100%;
 	position: fixed;
-	color: #e3e3e3;
-	font-size: 40px;
-	 text-shadow:red;
+	z-index: 1;
+
 }
+
+h1{
+  font-weight: bold;  
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+  text-shadow: -4px 6px 6px #F2F3F4  ;
+  padding-left: 5px;
+  letter-spacing: 9px;
+  color:#F2F3F4
+}
+
+
+#up{
+    border-radius: 50%;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+span.top{
+  font-weight: bold;
+  font-size: 40px;
+  padding-left:50%;
+  text-shadow: 3px 2px #F5B041;
+font-family: 'Satisfy', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#up{
+	height: 48px;
+	width:auto;
+
+}
+
+
+
+/*styling for the navigation panel
+*/
+
+nav {
+   
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
+
+
+nav a {
+    display:block;
+    width:14.2%;
+    height: 50px;
+    float:left;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #17202A;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #F5B041;
+}
+
+
+/*styling of hero section
+*/
+
+
+.hero-text{
+	position:absolute;
+	top:500px;
+	left:30%;
+	color:white;
+	font-size:35px ;
+	font-weight: bold;
+	font-family: 'Monoton', cursive;
+	text-shadow: 4px -4px 4px #F5B041 ;
+	letter-spacing: 2px;
+	z-index: 0;
+}
+
+/*styling of 960 grid columns
+*/
+.grid_4 p{
+	font-style: italic;
+	padding-left: 0px;
+	font-size: 31px;
+	letter-spacing: 2px;
+	color:white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+
+}
+
+.grid_4 h3{
+	font-style: inherit;
+	text-align: center;
+	text-shadow: 1px 1px white;
+
+}
+
+
+#first{
+	background-image:url(https://breakout.in/wp-content/themes/wildhorn-child/images/classified.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-blend-mode:darken;
+
+}
+#first:hover{
+	opacity: 0.7;
+}
+
+
+
+#second{
+	background-image: url(https://breakout.in/wp-content/themes/wildhorn-child/images/murdermystery.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-blend-mode:darken;
+}
+#second:hover{
+	opacity: 0.7;
+}
+#third{
+	background-image: url(https://breakout.in/wp-content/themes/wildhorn-child/images/rescuemission.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+]	background-blend-mode:darken;
+
+}
+#third:hover{
+	opacity: 0.7;
+}
+
+.fourth a{
+	height: 120px;
+	position: center;
+	padding-left: 120px;
+}
+
+li a{
+	text-decoration: none;
+
+}
+
+li a:hover{
+	color:black;
+}
+
+
+h3{
+	text-align: center;
+}
+
+.verti {
+	color: green;
+    list-style: none;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+
+h3{
+	font-size: 40px;
+	text-align: left;
+}
+
+
+
+em{
+	color: green;
+}
+
+
+/*styling of footer section
+*/
+
+
+footer{
+	width:100%;
+	display: block;
+	background-color: #17202A;
+
+}
+
+
+.media{
+	text-align: center;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.media a{
+	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.foot{
+  font-weight: bold;
+  /*padding-left:60%;*/
+}
+span.foot_2{
+  font-weight: bold;
+  float:right;
+}
+
