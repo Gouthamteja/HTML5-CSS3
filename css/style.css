@@ -27,17 +27,20 @@ header{
 h1{
   font-weight: bold;  
   font-family: 'Monoton', cursive;
-  font-size: 60px;
-  text-shadow: -3px 4px 4px #F2F3F4  ;
-  padding-left: 5px;
+  font-size: 50px;
+  text-shadow: 3px -4px 4px #F2F3F4  ;
+  padding-left: 7px;
+  padding-right: 3px;
   letter-spacing: 9px;
   color:#F2F3F4
 }
 
 
-#up{
+#up {
     border-radius: 50%;
-    text-shadow: 4px 4px 4px #aaa;
+    border: 3px solid;
+    padding-right:4px;
+    padding-top: -4px;
 }
 
 
@@ -46,8 +49,8 @@ span.top{
   font-size: 40px;
   padding-left:50%;
   text-shadow: 3px 2px #F5B041;
-font-family: 'Satisfy', cursive;
-letter-spacing: 3px;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 3px;
 }
 
 
@@ -67,7 +70,7 @@ nav {
    
     list-style-type:none;
     margin:0px;
-    padding:0px;
+    padding-left:0px;
     width: 100%;
 }
 
@@ -84,6 +87,7 @@ nav a {
     color: #fff;
     background: #17202A;
     text-decoration: none;
+    padding-right: 1px;
 
 }
 
